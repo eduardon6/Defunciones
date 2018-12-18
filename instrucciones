@@ -1,0 +1,28 @@
+https://www.inegi.org.mx/programas/mortalidad/ -> Datos abiertos -> Defunciones generales (CSV)
+
+defun_1_base.R #####################################
+
+DESCRIPCION:
+Transforma bases en csv
+
+BASES INPUT:
+defunciones_generales_2012.csv
+defunciones_generales_2013.csv
+defunciones_generales_2014.csv
+defunciones_generales_2015.csv
+defunciones_generales_2016.csv
+defunciones_generales_2017.csv
+
+BASES OUTPUT:
+defunciones.csv
+
+defun_2_graphs.R #####################################
+
+DESCRIPCION:
+Gráficas
+
+INPUT:
+defunciones.csv
+
+OUTPUT:
+/GRAPHS/...
